@@ -1,0 +1,29 @@
+Loading data...
+Creating features...
+Training model...
+
+Evaluation Results:
+Accuracy: 0.9748878923766816
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       965
+           1       0.99      0.81      0.89       150
+
+    accuracy                           0.97      1115
+   macro avg       0.98      0.90      0.94      1115
+weighted avg       0.97      0.97      0.97      1115
+
+Model artifacts saved successfully
+
+Demo Predictions:
+
+Message: WIN A FREE IPHONE TODAY! Click here to claim y...
+Prediction: SPAM
+
+Message: Hey John, just checking in about our meeting t...
+Prediction: HAM
+
+Message: Your account has been compromised. Verify your...
+Prediction: SPAM
